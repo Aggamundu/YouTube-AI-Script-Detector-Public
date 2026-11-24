@@ -44,4 +44,4 @@ If this policy changes, the new version will be posted here with a new effective
 
 ## Contact
 
-Questions: [your email]
+Questions: ryancepeda2@gmail.com
