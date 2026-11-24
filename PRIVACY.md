@@ -8,12 +8,12 @@ This extension estimates whether a YouTube video's script was written by AI. Thi
 
 When you open a YouTube video with the extension switched on, it sends the following to its scoring server (`ai-script-check.ryancepeda2.workers.dev`, hosted on Cloudflare):
 
-- **The video's ID** and the **text of its transcript** (captions), which are needed to score the video.
+- **The video's ID**, the **text of its transcript** (captions), and the **caption type and language**, which are needed to score the video.
 - **A random install ID**, created when the extension is installed. It is not linked to your name, Google account or YouTube account, and is used only to apply the daily check limit.
 
 Your IP address is seen by the server as part of any internet request, and is used only to apply the daily check limit.
 
-The extension does not read or send your browsing history, your YouTube account details, your comments, or anything from sites other than YouTube video pages.
+The extension does not read your browsing history, your YouTube account details or your comments, and it sends nothing from sites other than YouTube video pages.
 
 ## What the server keeps
 
@@ -32,7 +32,7 @@ This data stays in your browser. Uninstalling the extension deletes it.
 
 ## What we don't do
 
-- We do not sell or share your data with anyone.
+- We do not sell your data or transfer it to third parties, except to Cloudflare, which hosts the scoring server and handles data only to provide this service.
 - We do not use your data for advertising, profiling or credit decisions.
 - We do not use transcripts sent by the extension to train the AI detector.
 
