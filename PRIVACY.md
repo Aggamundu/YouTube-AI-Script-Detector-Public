@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**YouTube AI Script Detector** · Effective November 24, 2026
+**YouTube AI Script Detector** · Effective November 26, 2026
 
 This extension estimates whether a YouTube video's script was written by AI. This policy explains what data it uses and why.
 
 ## What the extension sends
 
-When you open a YouTube video with the extension switched on, it sends the following to its scoring server (`ai-script-check.ryancepeda2.workers.dev`, hosted on Cloudflare):
+When you open a YouTube video with the extension switched on, it sends the following to its scoring server (`api.aiscriptcheck.org`, hosted on Cloudflare; version 1.0.0 used `ai-script-check.ryancepeda2.workers.dev`, the same server):
 
 - **The video's ID**, the **text of its transcript** (captions), and the **caption type and language**, which are needed to score the video.
 - **A random install ID**, created when the extension is installed. It is not linked to your name, Google account or YouTube account, and is used only to apply the daily check limit.
